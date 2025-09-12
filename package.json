@@ -1,0 +1,45 @@
+{
+  "name": "darkpaste-email",
+  "version": "1.0.0",
+  "description": "Sistema de email totalmente privado com backend Vercel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "crypto-js": "^4.2.0",
+    "nodemailer": "^6.9.0",
+    "uuid": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/crypto-js": "^4.2.0",
+    "@types/nodemailer": "^6.4.0",
+    "@types/uuid": "^9.0.0",
+    "@types/bcryptjs": "^2.4.0",
+    "@types/cors": "^2.8.0",
+    "typescript": "^5.0.0",
+    "vercel": "^32.0.0"
+  },
+  "keywords": [
+    "email",
+    "privacy",
+    "anonymous",
+    "encryption",
+    "vercel"
+  ],
+  "author": "DarkPaste",
+  "license": "MIT"
+}
